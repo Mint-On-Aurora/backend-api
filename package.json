@@ -1,0 +1,22 @@
+{
+  "name": "backend-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vanshwassan/backend-api",
+  "author": "Vansh Wassan <007blackhacker@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "@nomiclabs/hardhat-waffle": "^2.0.4",
+    "@openzeppelin/contracts": "^4.8.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.7.2",
+    "express": "^4.18.2",
+    "hardhat": "^2.12.2",
+    "hardhat-deploy": "^0.10.6"
+  },
+  "scripts": {
+    "build": "hardhat compile",
+    "deploy": "hardhat deploy --network testnet_aurora"
+  }
+}
